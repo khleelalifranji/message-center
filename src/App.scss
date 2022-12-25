@@ -1,0 +1,22 @@
+.ParentContainer{
+    margin: auto;
+    width: 70%;
+    
+    .Row{
+        margin: auto;
+        
+        .col1{
+            background-color: white;
+            height: 600px;
+            border-radius: 10px;
+        }
+        .col2{
+            background-color: white;
+            margin-left: 16px;
+            height: 600px;
+            border-radius: 10px;
+
+        }
+    }
+       
+}

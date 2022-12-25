@@ -1,0 +1,63 @@
+.Chat{
+
+    .ContactsHeader{
+        .ant-row{
+            .ant-col-10{
+                h2{
+                    width: 70%;
+                    margin: 10px;
+                }
+            }
+
+            .icons{
+                margin: 10px 10px 5px;
+                font-size: 20px;
+                .anticon{
+                    padding: 5px
+                }
+        }
+        
+        }
+        
+        h5{
+            margin: 0px 10px 15px;
+        }
+    }
+    
+    .Divider{
+        margin: 14px 0px 0px 0px;
+    }
+
+    .ant-input-search{
+        padding: 10px;
+        width: 100%;
+        .ant-input-group{
+
+            .ant-input{
+                border-radius: 20px;
+                border-color: #F2F5F9;
+                background-color: #F2F5F9;
+            }
+
+            .ant-input-group-addon{
+                .ant-input-search-button{
+                    background-color: #5773cc;
+                    border-radius: 50%;
+                }
+                
+                .anticon-search{
+                    color: white;
+                }
+
+            }
+        }
+    }
+
+    .ant-tabs-nav{
+            margin:0;
+    }
+
+    Tabs{
+        margin: 0;
+    }
+}

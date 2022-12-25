@@ -1,0 +1,62 @@
+.ant-modal-content{
+    padding: 10px;
+    .ant-modal-close{
+        background-color: #5773cc;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        .ant-modal-close-x{
+            color: white;
+            margin: auto;
+            width: 15px;
+            height: 20px;
+            
+        }
+    }
+
+    .ant-modal-body{
+        margin: 0px;
+
+        h3{
+            margin: 0;
+        }
+
+        h5{
+            margin: 0;
+        }
+
+        .Divider{
+            margin: 5px;
+            width: 100%;
+        }
+
+        .MessageForm{
+            .ant-form-item{
+                margin: 0;
+                .ant-form-item-label{
+                    font-weight: 500;
+                    padding: 10px 0px 0px 0px;
+                }
+                
+                .ant-select-selector{
+                    border: none;
+                    background-color: #f4f7fa;
+                    
+                }
+                .ant-select-arrow{
+                    color: black;
+                }
+                .ant-input{
+                    border: none;
+                    background-color: #f4f7fa ;
+                }
+            }
+            .ant-btn{
+                margin-top: 10px;
+                width: 100%;
+                background-color: #5773cc;
+                color: white;
+            }
+        }
+    }
+}

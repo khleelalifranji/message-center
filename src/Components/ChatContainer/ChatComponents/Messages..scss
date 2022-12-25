@@ -1,0 +1,94 @@
+.Messages{
+    height: 460px;
+    overflow: auto;
+
+    .MsgRow {
+        margin: 15px 0px 20px 0px ;
+
+
+        .ant-col-1{
+            margin: 0px 0pc 0px 10px ;
+        }
+    
+        .ant-col-22{
+            h4{
+                margin: 0px 0px 0px 10px;
+            }
+        }
+    
+        .MsgText{
+            height: auto;
+            max-width: 550px;
+            margin: 0px 0px 0px 48px;
+            background-color: #f6f8f9;
+            border-radius: 10px;
+    
+            p{
+                margin: 10px;
+            }
+        }
+    
+        .Time{
+            margin-top: 5px;
+            padding-left: 60px;
+            font-size: small;
+            color: #aaaaaa;
+        }
+    }
+    
+////////////////////////////////////////////
+
+
+    .MsgRowNew {
+        margin: 15px 0px 15px 0px ;
+        justify-content: flex-end;
+
+        .ant-col-24{
+            margin: 0px 0pc 0px 10px ;
+        }
+
+        .MsgTextFormInput{
+            height: auto;
+            max-width: 550px;
+            margin-right: 20px;
+            background-color: #5773cc;
+            border-radius: 10px;
+            color: white;
+
+            p{
+                margin: 10px;
+                
+            }
+        }
+
+        .TimeNew{
+            padding-left: 612px;
+            margin-top: 5px;
+            margin-left: 0px;
+            font-size: small;
+            color: #aaaaaa;
+        }
+    }
+}
+.InputDivider{
+    margin: 0px;
+}
+
+.ant-input-group{
+        .ReplayInput{
+            margin: 15px 0px 20px 10px;
+            width: calc(100% - 95px);
+            border-color: #5773cc;
+        }
+        .SubmitRepaly{
+            margin: 15px 10px 15px 0px;
+            background-color: #5773cc;
+            border-color: #5773cc;
+            color: white;
+        }
+    }
+    
+    
+
+
+

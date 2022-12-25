@@ -1,0 +1,56 @@
+.HeaderChat{
+    
+    .ant-row{
+        
+        .UserColume{
+            .HeaderRow{
+                display: flex;
+                .avatar{
+                    .ant-avatar{
+                        margin: 18px 10px 17px 10px;
+                        width: 44px;
+                        height: 44px;
+                        line-height: 38px;
+                        border-radius: 50%;
+                    }
+                }
+                
+                .listcol{
+                    .ant-list-split{
+                        .ant-spin-nested-loading{
+                            margin: 0;
+                            h3{
+                                margin-top: 15px;
+                                margin-bottom: 0;
+                            }
+            
+                            h5{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+
+    .ButtonColume{
+        display: flex;
+        margin: auto;
+        justify-content: flex-end;
+        padding: 10px;
+    
+        .Replay{
+            margin-right: 10px;
+            background-color: #5773cc;
+        }
+        .Archive{
+            background-color: #5773cc ;
+        }
+        
+    }
+
+    .Divider{
+       margin: 0px;
+    }
+}
